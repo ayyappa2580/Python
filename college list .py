@@ -1,0 +1,81 @@
+# I am also generate the code to find the top "10" High paying Engineering Colleges in AP/TS?
+while(True):
+    import sys
+    print("*" * 50)
+    print("\tTop High paying Engineering Colleges in AP/TS")
+    print("*" * 50)
+    print("1. TOP Engineering Colleges in AP")
+    print("2. TOP Degree Colleges in AP")
+    print("3. TOP Engineering Colleges in TS")
+    print("4. TOP Degree Colleges in TS")
+    print("EXIT TO HOME PAGE PRESS (5) ")
+    print("*" * 50)
+    try:
+      ch = int(input("ENTER YOUR CHOICE:"))
+      match ch:
+        case 1:
+            print("1.GMR Institute of Technology")
+            print("\t college website https://gmrit.edu.in/")
+            print("2.Velagapudi Ramakrishna Siddhartha Engineering College")
+            print("\t College Website https://www.vrsiddhartha.ac.in/")
+            print("3.Rajeev Gandhi Memorial College of Engineering college ")
+            print("\t College Website https://www.rgmcet.edu.in/")
+            print("4.Sree Vidyanikethan Engineering College")
+            print("\t College Website https://www.svec.education/")
+            print("5.Narasaraopeta Engineering College")
+            print("\t College Website https://www.nrtec.in/")
+            print("6.Gudlavalleru Engineering College")
+            print("\t College Website https://www.gecgudlavalleru.ac.in/")
+            print("7.Andhra Loyola Institute of Engineering and Technology")
+            print("\t College Website https://www.aliet.ac.in/")
+            print("8.Anil Neerukonda Institute of Technology and Sciences")
+            print("\t College Website https://anits.edu.in/")
+            print("9.Amrita Sai Institute of Science and Technology")
+            print("\t College Website https://amritasai.org.in/")
+            print("10.V S M College of Engineering")
+            print("\t College Website https://www.vsm.edu.in/")
+        case 2:
+            print("1.Acharya Nagarjuna University")
+            print("\t College Website https://www.nagarjunauniversity.ac.in/")
+            print("2.Sri Padmavati Mahila Vishwavidyalayam")
+            print("\t College Website https://www.spmvv.ac.in/ ")
+            print("3.Andhra University ")
+            print("\t College Website https://www.andhrauniversity.edu.in/")
+            print("4.Gandhi Institute of Technology and Management (GITAM)")
+            print("\t College Website https://www.gitam.edu/")
+        case 3:
+            print("1.IIT Hyderabad")
+            print("\t College Website https://www.iith.ac.in/")
+            print("2.NIT Warangal")
+            print("\t College Website https://www.nitw.ac.in/")
+            print("3.SR Engineering College")
+            print("\t College Website http://www.srecwarangal.ac.in/")
+            print("4.University of Hyderabad")
+            print("\t College Website https://uohyd.ac.in/")
+            print("5.G.Narayanamma Institute of Technology and Science (GNITS)")
+            print("\t College Website https://gnits.ac.in/")
+            print("6.University College of Engineering Osmania")
+            print("\t College Website https://www.uceou.edu/")
+        case 4:
+            print("1.Nizam College")
+            print("\t College Website https://www.nizamcollege.ac.in/ ")
+            print("2.Osmania University")
+            print("\t College Website https://www.osmania.ac.in/")
+            print("3.Kakatiya University")
+            print("\t College Website https://www.kakatiya.ac.in/")
+            print("4.A.V. College of Arts, Science & Commerce")
+            print("\t College Website http://www.avcollege.in/")
+            print("5.Malla Reddy University")
+            print("\t College Website https://www.mallareddyuniversity.ac.in/")
+            print("6.Dr.B.R. Ambedkar Open University - Hyderabad")
+            print("\t College Website https://www.braou.ac.in/")
+        case 5:
+            print("YOUR LIVING IN HOME PAGE RIGHT NOW")
+            break
+        case _:
+            print("Dont Enter out of range above in this above sections-->plz try again!")
+            continue
+
+            sys.exit()
+    except ValueError:
+        print("Don't Enter space & special symbols  plz---> try again!")
